@@ -1,3 +1,5 @@
+
+/* Index */
 .index_cover {
   background-size: cover;
   background-image: url(/images/spotify-background.jpeg);
@@ -28,10 +30,11 @@
 }
 
 .btn-custom {
-  background-color: #d44e5a;
+  width: 8rem;
+  align-self: center;
 }
 
-/* Cards */
+/* cards - albums and artists search */
 .cards-wrapper {
   display: flex;
   flex-flow: row;
@@ -55,7 +58,38 @@
   justify-content: flex-end;
 }
 
-.btn-custom {
-  width: 8rem;
-  align-self: center;
+/* Tracks */
+.tracks-wrapper {
+  margin-left: 0;
 }
+
+.title {
+  background-color: #505050;
+  align-content: space-around;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  height: 4rem;;
+}
+
+.container {
+  background-color: #f5f5f5;
+  display: flex !important;
+  flex-flow: row !important;
+  flex-wrap: wrap !important;
+  margin-bottom:0.4rem;
+}
+
+.media-body {
+  justify-content: space-around;
+  align-content: space-around;
+  padding-bottom: 0.4rem;
+}
+
+.mb-1{
+  font-size: 1rem;
+}
+

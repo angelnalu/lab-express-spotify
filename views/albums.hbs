@@ -1,0 +1,15 @@
+<section class="cards-wrapper">
+  {{#each items}}
+    <div class="card">
+      {{#each images}}
+        {{#if @first}}
+          <img class="card-img-top" src={{url}} alt="image" >
+        {{/if}}
+      {{/each}}
+      <div class="card-body">
+        <h5>{{name}}</h5>
+        <a href="/track/{{id}}" class="btn btn-danger btn-custom">View Tracks</a>
+      </div>
+    </div>
+  {{/each}}
+</section>

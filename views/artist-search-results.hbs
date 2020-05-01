@@ -1,0 +1,11 @@
+<section class="cards-wrapper">
+  {{#each artist}}
+    <div class="card">
+      <img class="card-img-top" src="{{images.[0].url}}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{name}}</h5>
+        <a href="/albums/{{ id }}" class="btn btn-danger btn-custom">View albums</a>
+      </div>
+    </div>
+  {{/each}}
+</section>

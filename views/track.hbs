@@ -1,0 +1,20 @@
+<section class="tracks-wrapper">
+  <div class="title">
+    <h4>Title</h4>
+    <h4>Listen</h4>
+  </div>  
+  {{#each items}}
+  <div class="container"> 
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">{{name}}</h5>
+    </div>
+    <div class="media">
+      <audio controls src={{preview_url}}></audio></li>
+    </div>
+  </div>
+  {{/each}}
+ 
+</section>
+
+
+
